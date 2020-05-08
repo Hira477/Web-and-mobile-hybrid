@@ -1,0 +1,219 @@
+            * {
+                font-family: serif;
+            }
+            
+            body {
+                background-color: rgb(246, 246, 252);
+            }
+            
+            .btn {
+                border: 1px solid green;
+                color: green;
+                background-color: white;
+                border-radius: 0%;
+            }
+            
+            i {
+                letter-spacing: 15px;
+            }
+            
+            a {
+                color: black;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            
+            a:hover {
+                color: white;
+            }
+            
+            li {
+                padding-left: 20px;
+            }
+            
+            ul li:hover {
+                background: blue;
+                border-radius: 25px;
+                padding-left: 20px;
+            }
+            
+            .carousel-inner img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .bgg {
+                background-color: rgb(246, 246, 252);
+            }
+            
+            .count {
+                height: 350px;
+                background-color: blue;
+                padding-top: 100px;
+            }
+            
+            .co {
+                font-weight: 600;
+                text-align: center;
+                color: white;
+            }
+            
+            .co2 {
+                font-weight: 500;
+                text-align: center;
+                color: blue;
+            }
+            
+            .co3 {
+                font-weight: 500;
+                padding-left: 120px;
+                color: blue;
+                position: absolute;
+                top: 25px;
+            }
+            
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 20%;
+            }
+            
+            .what {
+                margin-left: 40px;
+                margin-top: 50px;
+                width: 400px;
+                height: 200px;
+                background-color: white;
+                box-shadow: 0 0 12px 5px rgb(223, 223, 226), 0 9px 10px 0 rgba(0, 0, 0, 0.19);
+                transform: scale(1.07);
+            }
+            
+            .last1 {
+                width: 100%;
+                height: 500px;
+                background-color: white;
+                margin-top: 150px;
+                position: relative;
+            }
+            
+            .event {
+                margin-left: 60px;
+                width: 500px;
+                height: 80px;
+                background-color: rgb(246, 246, 252);
+                margin-top: 10px;
+                position: relative;
+            }
+            
+            .im {
+                padding-top: 20px;
+                padding-left: 50px;
+            }
+            
+            .upev {
+                width: 30%;
+                height: 500px;
+                background-color: white;
+                position: relative;
+                margin-top: 150px;
+            }
+            
+            .inupev {
+                width: 25%;
+                height: 300px;
+                background-color: white;
+                position: relative;
+                margin-top: 50px;
+                margin-left: 0px;
+            }
+            
+            .misson-services {
+                display: flex;
+                flex-direction: row;
+                margin: 20px;
+                margin-top: 150px;
+            }
+            
+            .misson-services .mission {
+                flex: 2;
+            }
+            
+            .misson-services .service {
+                flex: 1;
+            }
+            
+            .misson-services .service p {
+                margin: 20px;
+                display: flex;
+                flex-basis: 300px;
+                height: 250px;
+            }
+            
+            .missions {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .mission-boxes {
+                box-shadow: 1px 2px 4px #3f423f;
+                margin: 20px;
+                width: 420px;
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                justify-content: space-evenly;
+                font-size: 20px;
+            }
+            
+            footer {
+                margin-top: 100px;
+                display: flex;
+                background-color: #1f1d1d;
+                justify-content: flex-start;
+                padding-top: 70px;
+                padding: 20px;
+                flex-wrap: wrap;
+                flex-basis: 100%;
+            }
+            
+            footer>div {
+                padding-right: 50px;
+                color: #fff;
+                text-align: left;
+            }
+            
+            .section1 .section2 .section3 {
+                width: 33%;
+            }
+            
+            .section1 {
+                padding: 20px 0px 0px 0px;
+                margin: 20px;
+            }
+            
+            .section3>i {
+                color: #fff;
+                width: 30px;
+                height: 30px;
+                border: 5px solid #000088;
+                background-color: #000088;
+                border-radius: 100%;
+                margin-left: 15px;
+                padding-top: 4px;
+                padding-left: 4px;
+            }
+            
+            .section1 {
+                flex: 3;
+            }
+            
+            .section2 {
+                flex: 2;
+                font-size: 20px;
+                font-weight: bolder;
+            }
+            
+            .section3 {
+                flex: 3;
+            }
